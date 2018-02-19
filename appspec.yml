@@ -3,5 +3,5 @@ os: linux
 files:
 hooks:
    Install:
-    - location: ./installpython27.sh
+    - location: sudo sh installpython27.sh
 runas: root
